@@ -42,6 +42,7 @@ patch '/posts/:id' do
 end
 
 delete '/posts/:id/delete' do
+  erb :delete
 end
 
 end
